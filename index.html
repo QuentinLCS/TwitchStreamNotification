@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="FR" xmlns="">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="css/feeds.css">
+        <link rel="stylesheet" type="text/css" href="css/menu.css">
+        <link rel="stylesheet" type="text/css" href="css/stream.css">
+        <link rel="icon" type="image/png" href="images/favicon.png">
+    </head>
+
+    <body>
+
+        <div class="loading">
+            <img src="images/logo.png" alt="logo" width="100px" height="100px" id="Logo">
+        </div>
+
+        <div class="app disabled">
+            <div class="offline">
+                <a class="stream">
+                    <div class="main-content">
+                        <h1 class="title">SUIVEZ-MOI SUR LES RESEAUX SOCIAUX.</h1>
+                        <h2 class="subtitle">HORS LIGNE</h2>
+                    </div>
+                </a>
+            </div>
+
+            <div class="online">
+                <a id="thumbnail" class="stream">
+                    <p id="stream-title"></p>
+                    <div class="main-content">
+                        <p class="title">
+                            <span class="circle"></span>EN LIVE
+                        </p>
+                        <p class="subtitle">
+                            <span id="viewers"></span>
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="content">
+
+                <img class="offline" id="next-stream-img" src="images/nextStream.png" alt="Next stream planning">
+
+                <div class="feed">
+                    <div>
+                        <h1>DERNIERES VIDEOS</h1>
+                        <h2>BESTOF TOUS LES 1ER DU MOIS</h2>
+                    </div>
+                    <div id="youtube-feed"></div>
+                </div>
+
+                <div class="feed">
+                    <div>
+                        <h1>INSTAGRAM</h1>
+                        <h2>DERNIERS POSTS INSTAGRAM</h2>
+                    </div>
+                    <div id="instagram-feed"></div>
+                </div>
+
+
+                <div id="menu">
+                    <div id="gradient-background"></div>
+                    <div class="buttons"></div>
+                </div>
+            </div>
+        </div>
+        <div class="error disabled">
+            <h1>
+                ERREUR
+            </h1>
+            <p class="subtitle">Veuillez vérifier votre connexion internet.</p>
+        </div>
+
+        <script src="js/jquery.js"></script>
+        <script src="js/config.js"></script>
+        <script src="js/functions.js"></script>
+        <script src="js/instagram.js"></script>
+        <script src="js/youtube.js"></script>
+        <script src="js/background.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>

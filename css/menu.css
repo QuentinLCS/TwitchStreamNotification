@@ -1,0 +1,72 @@
+#menu, #menu .buttons, #menu #gradient-background {
+    width: 260px;
+}
+#menu {
+    position: fixed;
+    bottom: 10px;
+    left: 22px;
+    height: 40px;
+    filter: drop-shadow(0px 0px 10px rgba(107, 72, 30, 0.75));
+}
+
+#menu .buttons {
+    position: absolute;
+    display: flex;
+
+}
+
+#menu #gradient-background {
+    position: absolute;
+    height: 24px;
+    margin-top: 8px;
+    background: linear-gradient(92.17deg, #9D784F 13.07%, #3C2415 85.82%);
+    border-radius: 100px;
+
+}
+
+#menu .buttons > a {
+    flex-grow: 1;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+#menu .buttons > a:hover {
+    transition: all 0.5s;
+    transform: scale(1.25);
+}
+
+#menu a img {
+    vertical-align: center;
+}
+
+#menu #youtube img {
+    height: 10px;
+    margin-top: 15px;
+}
+
+#menu #twitter img {
+    height: 14px;
+    margin-top: 13px;
+}
+
+#menu #logo img {
+    transition: all ease 1.25s;
+    height: 40px;
+}
+
+#menu #instagram img {
+    height: 14px;
+    margin-top: 13px;
+}
+
+#menu #discord img {
+    height: 10px;
+    margin-top: 15px;
+}
+
+#menu #logo:hover img {
+    transition: all ease 0.75s;
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform:rotate(360deg);
+}

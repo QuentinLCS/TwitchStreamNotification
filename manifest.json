@@ -1,0 +1,21 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "js/jquery.js", "js/config.js", "js/functions.js", "js/background.js", "js/app.js" ]
+   },
+   "browser_action": {
+      "default_icon": "images/icon_off_128.png",
+      "default_popup": "index.html",
+      "default_title": "QuentinLCS - HORS LIGNE"
+   },
+   "description": "Sois notifié lorsque je lance un LIVE sur TWITCH.TV/QUENTLNLCS !",
+   "icons": {
+      "128": "images/icon_off_128.png",
+      "64": "images/icon_off_64.png"
+   },
+   "manifest_version": 2,
+   "name": "QuentinLCS Notifier",
+   "permissions": [ "tabs", "storage", "activeTab", "https://*.twitch.tv/*", "https://*.twitch.tv/quentlnlcs*", "http://*/*", "https://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1"
+}
