@@ -3,7 +3,6 @@
 
 Javascript chrome / firefox extension to notify when the streamer goes live, with instagram and youtube last posts.
 
-This was made to partially automate the process of notifying a Discord server that the broadcaster has gone live, while still adding useful information like the stream's title and game that would otherwise have to be done manually.
 
 ## How it works
 Once installed, the script will keep checking for your stream to go live and update the extension when it goes live.
